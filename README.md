@@ -1,4 +1,4 @@
-# LimeSurvey Installation Script
+# LimeSurvey Installation Script for Ubuntu 16.04
 
 This is an experimental script, do not use it.
 
