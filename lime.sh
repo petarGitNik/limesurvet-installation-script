@@ -16,11 +16,11 @@ curl -L https://www.limesurvey.org/stable-release?download=2317:limesurvey353%20
 tar xvzf lime.tar.gz
 
 sudo apt-get update
-sudo apt-get install apache2 mysql-client mysql-server php7.0 php7.0-common php7.0-cli libapache2-mod-php7.0
+sudo apt-get install apache2 mysql-client mysql-server php7.1 php7.1-common php7.1-cli libapache2-mod-php7.1
 
 # Optional but not so optional PHP extensions
 # Zlib missing here (?)
-sudo apt-get install php7.0-mysql php7.0-ldap php7.0-zip php7.0-mbstring php7.0-gd php7.0-imap php7.0-xml
+sudo apt-get install php7.1-mysql php7.1-ldap php7.1-zip php7.1-mbstring php7.1-gd php7.1-imap php7.1-xml
 sudo service apache2 restart
 
 sudo mkdir /var/www/limesurvey
