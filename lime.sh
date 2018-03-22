@@ -61,7 +61,7 @@ echo "<VirtualHost *:80>
   CustomLog /var/log/apache2/lime_access.log combined
 
   <Directory /var/www/limesurvey>
-    Allow from all
+    Require all granted
     Options -MultiViews
   </Directory>
 </VirtualHost>" | sudo tee -a /etc/apache2/sites-available/limesurvey.conf
